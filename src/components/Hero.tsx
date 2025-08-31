@@ -28,11 +28,13 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-gradient-to-r from-amber-400 to-orange-500 text-slate-800 px-8 py-4 rounded-lg font-semibold hover:from-amber-500 hover:to-orange-600 transition-all duration-300 flex items-center justify-center group">
-                Ver Productos
+                <a href="#productos">Ver Productos</a>
+                
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
               <button className="border-2 border-amber-400 text-amber-400 px-8 py-4 rounded-lg font-semibold hover:bg-amber-400 hover:text-slate-800 transition-all duration-300">
-                Contactar Ahora
+                <a href="#contacto">Contactar Ahora</a>
+                
               </button>
             </div>
 
@@ -49,14 +51,14 @@ const Hero = () => {
                 <div className="flex items-center justify-center mb-2">
                   <Award className="h-6 w-6 text-amber-400 mr-2" />
                 </div>
-                <div className="text-2xl font-bold text-amber-400">500+</div>
+                <div className="text-2xl font-bold text-amber-400">100+</div>
                 <div className="text-sm text-gray-300">Proyectos Exitosos</div>
               </div>
               <div className="text-center">
                 <div className="flex items-center justify-center mb-2">
                   <Users className="h-6 w-6 text-amber-400 mr-2" />
                 </div>
-                <div className="text-2xl font-bold text-amber-400">200+</div>
+                <div className="text-2xl font-bold text-amber-400">60+</div>
                 <div className="text-sm text-gray-300">Clientes Satisfechos</div>
               </div>
             </div>
@@ -80,7 +82,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <div className="font-bold text-lg">Calidad Garantizada</div>
-                  <div className="text-sm text-gray-600">Certificaciones Internacionales</div>
+                  <div className="text-sm text-gray-600">Experiencia que Genera Confianza</div>
                 </div>
               </div>
             </div>

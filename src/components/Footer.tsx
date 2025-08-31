@@ -50,7 +50,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-amber-400 mb-4">Contacto</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400 text-sm">+51 (1) 234-5678</li>
+              <li className="text-gray-400 text-sm">+51 932 214 442</li>
               <li className="text-gray-400 text-sm">info@mineralcraftpro.com</li>
               <li className="text-gray-400 text-sm">Calle El Palmar 238<br />Salamanca, Ate, Lima, Perú</li>
             </ul>
